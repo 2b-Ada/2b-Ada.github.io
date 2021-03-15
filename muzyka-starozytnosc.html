@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Muzyka - moja pasja!</title>
+  <meta charset="utf-8">
+  <style>  
+  
+body{ 
+	background-color: #C0C0C0;
+      }
+h1{ 
+	text: center;
+	color: #FFFFFF;
+	font-family: serif;
+	font-size: 5em;
+	text-shadow: 2px 2px 0 #ccc;
+	margin: 0;
+	text-align: center;
+	  }
+h2{ 
+	color: 	#CD5C5C;
+	  }
+li{ 
+	color: #E9967A;
+	  }
+td{  
+	text-align: center;
+	  } 
+p{
+	text-align: justify;
+	  }
+th, td{	
+	border: 1px solid #E9967A;
+	  }
+#tytul{
+	 font-size: 1.5em;
+	 color:#8B0000 ;
+	  }
+#podr{
+	padding: 40px;
+	  }
+	  
+#tabelka{
+	float: right;
+	padding: 20px;
+	  }
+#test{
+	padding: 20px;
+	  } 
+#test2{
+	padding: 10px;
+	  }
+#naglowek {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xuEoSRCmA5t6kOmhpgNxDBX_VNIAnO-AMQ&usqp=CAU);
+	margin-top: 0px;
+}
+
+#tresc {
+	background-color:#FAF0E6;
+	clear: both;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	font-family:"Times New Roman", sans-serif;	
+}
+
+#stopka {
+	font-family: sans-serif;
+	color: 	#696969;
+	clear: both;
+	width: 100%;
+	background-color: #DCDCDC;
+	
+}
+ 
+	 
+	  
+	   /* ----------------MENU------------------ */
+
+      /* wygląd głównego elementu - ol */
+      ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+	      
+        background-color:#FFDAB9;
+        font-size:18px;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+	font-weight: bold;
+	       
+      }
+	  
+	 
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol a {
+        display:block;
+        text-decoration:none;
+        color:#000;
+        padding:0 5px;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol > li {
+        float:left;
+        width:200px;
+        margin-left:1px;
+        background-color:#FFA07A;
+        height:2em;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover {
+        background-color:#EEE;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > a {
+        color:#09C;
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > ul {
+        display:block;
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      ol > li > ul > li {
+        position:relative;
+        background-color:#EEE;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej */
+      ol > li > ul > li > a {
+        border-top:1px solid #FFF;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol > li > ul > li:hover {
+        background-color:#DDD;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol > li > ul > li:hover > a {
+        color:#09C;
+      }
+	  
+	  
+ 
+</style>
+</head>
+<body> 
+        <h1 id="naglowek"><em><strong>Muzyka - moja pasja!</em></strong></h1>
+	
+
+	<div id="menu">
+	<ol>
+	<li><a href="https://2b-ada.github.io/muzyka1.html">Start</a></li>
+        <li><a href="#">Epoki w muzyce</a>
+        <ul>
+          <li><a href="#">Starożytność</a></li>
+          <li><a href="https://2b-ada.github.io/muzyka-sredniowiecze.html">Średniowiecze</a></li>
+          <li><a href="#">Renesans</a></li>
+	  <li><a href="#">Barok</a></li>
+	  <li><a href="#">Klasycyzm</a></li>
+          <li><a href="#">Romantyzm</a></li>
+          <li><a href="#">Muzyka XX wieku</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">Instrumenty</a></li>
+
+      <li><a href="#">Podstawy</a>
+        <ul>
+          <li><a href="#">Interwały</a></li>
+          <li><a href="#">Trójdźwięki</a></li>
+          <li><a href="#">Określenia włoskie</a></li>
+        </ul>
+      </li>
+    </ol>
+	</div>
+	
+	
+	
+	<div id="tresc">  
+	<div id="test">
+		
+		
+		<div id="tabelka">
+	        <table cellspacing="0">
+	          <thead>
+		     <tr>
+		       <th bgcolor=#FFDAB9> <img src="https://static.epodreczniki.pl/portal/f/res/RD2VPhDnXRKLp/1598565231/10GcmvqrFeEXtnJJRzvNTgcSlQg1qXU0/resources/2vm7d8hknvkvsvrapyp1rueyxdqeqmry.jpg" width="351"></th>
+		     </tr>
+		   </thead>
+		   <body>	
+		     <tr>
+			     <td bgcolor=#FFDAB9> Stanisław Samostrzelnik, „Święty Stanisław”, </br> 1530-1535, Biblioteka Narodowa, Warszawa </td>
+	        </table>                          
+		</div>
+		
+		<h2> <span id="tytul"> <strong> Średniowiecze </strong> </span> </h2>
+		<h2><em>Jak powstała muzyka średniowieczna?</em></h2>
+	        <p> Za początek muzyki średniowiecznej przyjmuje się przyjęcie chrześcijaństwa jako oficjalnej religii Cesarstwa Rzymskiego i wprowadzenie śpiewu gregoriańskiego do liturgii kościoła. Nauka i sztuka rozwijała się w klasztorach, które decydowały o ich rozwoju i przemianach. Początkowo w muzyce kościelnej zabraniano wykorzystywania instrumentów, dominowała natomiast muzyka wokalna – chóry męskie śpiewały łacińskie utwory a cappella.<p>
+		<h2><em>Muzyka kościelna:</em></h2>
+	 	<p>Jednogłosowa muzyka kościelna rozwinęła się za sprawą papieża Grzegorza I Wielkiego, od którego nazwę zawdzięcza chorał gregoriański. To właśnie on wybrał lub zlecił wybór melodii kościelnych, które obowiązywały w Kościele, a następnie zostały zapisane w tzw. Antyfonarzu. Słowo chorał pochodzi od chorus, czyli miejsca przeznaczonego dla kościelnych śpiewaków. Średniowieczny chorał gregoriański charakteryzował się jednogłosowością, opartą na skalach kościelnych, inaczej zwanych modalnymi. Śpiew przeznaczony dla wielu głosów, czyli wielogłosowy pojawił się dopiero w VII wieku. W Polsce najstarszym zabytkiem jest Bogurodzica. Ta pochodząca z przełomu XIII i XIV wieku pieśń jest pierwszym utworem zapisanym w języku polskim. Słynną pieśnią kościelną jest także Gaude Mater Polonia, która powstała w XIII wieku, a jej autorem jest Wincenty z Kielczy, pierwszy znany z imienia kompozytor polski.</p>
+	
+	<h2><em>Muzyka świecka:</em></h2>
+	<p>W okresie wczesnego średniowiecza do głosu zaczyna dochodzić świecka pieśń jednogłosowa, którą możemy uważać za przejaw muzyki ludowej. Muzyka ta wiąże się z postaciami grajków wędrownych, którzy byli jednocześnie wesołkami, akrobatami i aktorami. Wędrowali oni gromadami z miejsca na miejsce, biorąc udział w uroczystościach i zabawach ludowych, prześladowani zarówno przez władze świeckie, jak i Kościół. </p>
+	<p>Poeci‑muzycy, którzy wywodzili się ze stanów wyższych (tj. rycerskich lub arystokracji), zwano trubadurami (Francja południowa) truwerami (Francja północna), oraz minnesangerami (wym. minezengerami) (Niemcy). Pieśni wykonywane przez tych śpiewaków najczęściej dotyczyły czynów rycerskich, miłości, oraz opisywały piękno przyrody. W XIV—XV w Niemczech pojawili się meistersingerzy (wym. majsterzingerzy), którzy tworzyli w miastach własne związki na wzór cechów rzemieślniczych.</p>
+	<p>Podział muzyki świeckiej:</p>
+	
+	<div id="tabelka">
+	        <table cellspacing="0">
+	          <thead>
+		     <tr>
+		       <th bgcolor=#FFDAB9> <img src="https://static.epodreczniki.pl/portal/f/res/RFdBznCyEygk4/1/1lH9bztaxS6K5TrGslz7l3GS3I0JrWDs/3.jpg" width="351"></th>
+		     </tr>
+		   </thead>
+		   <body>	
+		     <tr>
+			     <td bgcolor=#FFDAB9> Najstarszy znany zapis tekstu Bogurodzicy z 1407 </br> zapisany na tylnej wyklejce zbioru kazań </br> łacińskich skopiowanych przez wikarego w Kcyni </br> na Pałukach Macieja z Grochowa </td>
+	        </table>
+		</div>
+	
+	<ul list-style-type: square>
+		<li>muzyka ludowa - zapewne istniała, lecz zachowane informacje na jej temat są bardzo skąpe</li>
+		<li>muzyka dworska - dzielona na dwa rodzaje: dającą radość możnym, uświetniającą ceremoniał dworski oraz pieśni trubadurów, wędrownych pieśniarzy dworskich</li>
+		<li>muzyka miejska - muzyka popularna zwłaszcza wśród młodych mieszczan (żaków i wagantów), wędrujących od miasta do miasta i biorących udział w przedstawieniach. Podobnie jak trubadurzy, byli zarówno twórcami, jak i wykonawcami swych utworów. Ważne były również wygrywające melodie wieżowe kuranty oraz hejnały, jak np. zachowane do dziś Hejnał Mariacki i Toruński</li>
+		<li>muzyka instrumentalna - Pierwsze samodzielne utwory organowe zanotowano na początku XIV w., lecz prawdopodobnie powstawały już wcześniej. Estampida, mimo początkowego charakteru tanecznego, przerodziła się w utwór instrumentalny składający się z większej ilości części. Rondo, taneczny utwór o wieloczęściowej budowie i powtarzającym się refrenie, choć wywodził się z muzyki wokalnej, często występował jako utwór instrumentalny. W XIV w. nastąpił rozwój wariacji</li>
+		<li>muzyka wojskowa i myśliwska</li>
+		<li>wielogłosowa muzyka świecka - zachowały się głównie pieśni, we Francji zwane „chansons”. Do rozkwitu tej chansons przyczyniła się działalność trubadurów i truwerów. Stworzyli oni podstawowe schematy formalne pieśni: balladę, rondeau, lai i virelai. We Włoszech rozpowszechniony był madrygał. Najczęściej tematyką była miłość zarówno ta idealna w wydaniu rycerskim jak i frywolna</li> 
+	</ul>
+		
+	<h2>Muzyka w średniowiecznej Polsce:</h2>	
+	<p> W Polsce dominowała muzyka religijna w języku łacińskim. Śpiew chorałowy pojawił się wraz z przyjęciem chrześcijaństwa. Pielęgnowano go w zakonach i klasztorach. Hymny i sekwencje opiewały kult rodzimych i przybranych patronów. Do najstarszych i najcenniejszych zabytków polskiej muzyki należy Bogurodzica - jednogłosowa, ametryczna (śpiewana poza taktem), melizmatyczna pieśń religijna z XIII wieku. Między XIV i XV wiekiem powstało kilkadziesiąt jednogłosowych pieśni religijnych z polskimi tekstami, związanych z różnymi świętami. Wincenty z Kielczy (ur. ok. 1200 roku), ksiądz i zakonnik, był pierwszym znanym z imienia kompozytorem polskim. Jego pieśń Gaude Mater Polonia (Raduj się, Matko Polsko) za czasów Władysława Łokietka była hymnem królewskim. Za czasów Jagiełły powstała pierwsza kapela dworska. Na Uniwersytecie Jagiellońskim wykładano muzykę.</p>
+	
+	<h2>Najważniejsze utwory średniowiecznej muzyki polskiej:</h2>
+	<ul list-style-type: square>
+		<li>Orędzie wielkanocne 1060 r. - chorał benedyktyński</li>
+		<li>Bogurodzica</li>
+		<li>Gaude Mater Polonia Wincentego z Kielczy, hymn pochodzący z oficjum rymowanego o św. Stanisławie, ok. 1253 r.</li>
+		<li>Hymn ku czci św. Stanisława</li>
+		<li>Magnificat trzygłosowe, Mikołaj z Radomia</li>
+		<li>Panis, panis pange patribus tantum Piotr z Grudziądza, XV w.</li> 
+		<li>Breve regnum dwugłosowe, XV w.</li>
+		<li>Historyka bystrość umysłu Mikołaj z Radomia, na cześć królowej Zofii i jej syna Kazimierza do słów Stanisława Ciołka</li>
+	</ul>	
+	<h2>Średniowieczni kompozytorzy</h2>	
+	<ul list-style-type: square>
+		<li>Leoninus (ars antiqua) skomponował ok. 100 utworów dwugłosowych zebranych w dziele „Magnus Liber Organi” do wykonywania podczas mszy całego roku kościelnego; specjalizował się w tworzeniu organum dwugłosowego</li>
+		<li>Perotinus (ars antiqua) zmodernizował organa Leoninusa, rozszerzając je do trzech i czterech głosów. Zastosował nowe techniki kompozytorskie – imitację, w której głosy ulegały przesunięciu; hoquetus, czyli przerywanie melodii pauzami; technikę konduktową, równouprawnienie głosów w rytmie i melodii</li>
+		<li>Guillaume de Machaut (ars nova) przyczynił się do rozwoju muzyki świeckiej; komponował głównie motety, ballady, ronda, virelais, cztero-głosowe msze (Notre Dame)</li>
+		<li>trubadurzy działający w południowej Francji: Wilhelm IX książę Akwitanii; Bernard de Ventadorn Pieśń skowronka; Peire Vidal; Raimbaut de Vaqueiras Kalenda maya; Guiraut Riquier</li>
+		<li>truwerzy działający w północnej Francji: Ryszard Lwie Serce; Tybald IV; Adam de la Halle Gra o Robinie i Marion</li>
+		<li>minnesingerzy działający w Niemczech: Walther von der Vogelweide; Tannhäuser; Oswald von Wolkenstein</li> 
+		<li>skaldowie działający na północy Europy</li>
+		<li>Francesco Landini (ars nova) – ballady, madrygały, caccie. Niewidomy organista</li>
+		<li>John Dunstable (ars nova) – twórca techniki fauxbourdon</li>
+	</ul>		
+		
+	</div>
+	</div>
+	
+	<div id="stopka">
+        <div id ="test2">
+		<p><em> &nbsp; Źródła: </em></p> 
+		<p><a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Wikipedia-logo-v2-pl.svg/1200px-Wikipedia-logo-v2-pl.svg.png" width="105"></a>
+		<span id="podr"> <a href="https://epodreczniki.pl/"><img src="https://epodreczniki.pl/static/img/ep.svg?v=1190" width="180"></a></span></p>
+	</div>
+	</div>
+	
+
+	
+</body>
+</html>
